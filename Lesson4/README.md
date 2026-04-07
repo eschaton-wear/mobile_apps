@@ -152,7 +152,7 @@ WorkRequest uploadWorkRequest = new OneTimeWorkRequest.Builder(UploadWorker.clas
 WorkManager.getInstance(this).enqueue(uploadWorkRequest);
 ```
 
-![img.jpg](../../Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/Desktop/img.jpg)
+![img.png](../../Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/Desktop/img.png)
 ---
 
 ## Вывод
