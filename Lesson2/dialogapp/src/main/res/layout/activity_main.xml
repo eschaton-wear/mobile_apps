@@ -3,12 +3,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
+    <!-- Кнопка из примера в методичке -->
     <Button
         android:id="@+id/btnShowDialog"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:text="Show dialog" />
+
+    <!-- Кнопка для MyTimeDialogFragment -->
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="onClickTimeDialog"
+        android:text="Выбрать время" />
+
+    <!-- Кнопка для MyDateDialogFragment -->
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="onClickDateDialog"
+        android:text="Выбрать дату" />
+
+    <!-- Кнопка для MyProgressDialogFragment[cite: 1] -->
+    <Button
+        android:id="@+id/btnProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickProgressDialog"
+        android:text="Показать прогресс" />
 
 </LinearLayout>
